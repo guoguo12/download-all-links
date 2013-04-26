@@ -17,7 +17,7 @@ The `download.py` file handles the entire process. You need to provide four vari
 * `extensions` is a list of strings that describe the types of files to download.
 Do not include periods (e.g., for text files, use "txt" not ".txt").
 * `outputDirectory` is the directory to which the files will be downloaded. 
-The string should end with two backslashes.
+The string should end with two backslashes. If the directory does not exist, it will be created.
 * `source` is the local file or webpage containing the HTML source from which links are scraped.
 
 Note that all files should be relative or absolute and all URLs should begin with "http://" (or "https://").
